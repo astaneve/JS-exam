@@ -14,7 +14,7 @@ const ENDPOINT = 'cars.json';
 const renderCard = (brand) => {
     const card = document.createElement("div")
     const brandNameEl = document.createElement("h2")
-const listEl = document.createElement("ul")
+    const listEl = document.createElement("ul")
 
     brandNameEl.textContent = brand.brand;
     brand.models.forEach(models => {

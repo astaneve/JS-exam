@@ -7,6 +7,12 @@ let b = division(four, two);
 let c = substraction(three, two);
 let d = multiplication(five, two);
 
+import { composition } from "./modules/math/composition.js";
+import { division } from "./modules/math/division.js";
+import { substraction } from "./modules/math/subtraction.js";
+import { multiplication } from "./modules/math/multiplication.js";
+import { one, two, three, four, five } from "./modules/numbers/numbers.js";
+
 console.log(a);
 console.log(b);
 console.log(c);

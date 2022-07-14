@@ -73,8 +73,8 @@
 
 .card {
   padding: 20px;
-  background-color: yellow;
+  background-color: grey;
   border-radius: 10px;
   margin-bottom: 26px;
-  border-radius: px;
+  color: white;
 }

@@ -27,6 +27,7 @@ avatarurlEl.src = avatar_url;
 avatarurlEl.alt = `${login} avatar`;
 avatarurlEl.style.width = "120px";
 
+card.className = "card"
 card.append(loginEl, avatarurlEl);
 document.getElementById("output").append(card);
 };
